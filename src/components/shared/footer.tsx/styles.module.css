@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    border-top: 5px solid  grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer img {
+    padding-right: 40px;
+}
+.aviso {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mobli {
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .aviso {
+        font-size: 12px;
+    }
+    .imagen {
+        width: 90px;
+    }
+
+    .footerResponsive {
+        display: flex;
+        align-items: flex;
+    }
+    
+    /* .mobli {
+       display: flex;
+       justify-content: center;
+    } */
+    
+  }
